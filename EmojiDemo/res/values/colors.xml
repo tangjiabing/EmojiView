@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- emojiview.xml -->
+    <color name="emoji_inputLinearLayout_bg">#ffffff</color>
+    <color name="emoji_contentText_stroke">#e4e4e4</color>
+    <color name="emoji_contentText_solid">#ffffff</color>
+    <color name="emoji_sendButton_textcolor">#ffffff</color>
+    <color name="emoji_sendButton_solid_pressed">@android:color/holo_blue_dark</color>
+    <color name="emoji_sendButton_solid">@android:color/holo_blue_light</color>
+    <color name="emoji_smileLinearLayout_bg">#d9dde1</color>
+    <color name="emoji_addLinearLayout_bg">@color/emoji_smileLinearLayout_bg</color>
+    <color name="emoji_dotView_solid_selected">#606060</color>
+    <color name="emoji_dotView_solid">#a0a0a0</color>
+
+</resources>

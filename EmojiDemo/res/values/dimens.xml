@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- emojiview.xml -->
+    <dimen name="emoji_inputLinearLayout_padding">8dp</dimen>
+    <dimen name="emoji_audioImageView_wh">32dp</dimen>
+    <dimen name="emoji_contentText_padding">3dp</dimen>
+    <dimen name="emoji_contentText_stroke">1dp</dimen>
+    <dimen name="emoji_contentText_radius">5dp</dimen>
+    <dimen name="emoji_contentText_margin_lr">8dp</dimen>
+    <dimen name="emoji_font_contentText">18sp</dimen>
+    <dimen name="emoji_smileImageView_wh">@dimen/emoji_audioImageView_wh</dimen>
+    <dimen name="emoji_addImageView_wh">@dimen/emoji_audioImageView_wh</dimen>
+    <dimen name="emoji_addImageView_margin_l">@dimen/emoji_contentText_margin_lr</dimen>
+    <dimen name="emoji_font_sendButton">14sp</dimen>
+    <dimen name="emoji_sendButton_width">50dp</dimen>
+    <dimen name="emoji_sendbutton_height">@dimen/emoji_audioImageView_wh</dimen>
+    <dimen name="emoji_sendButton_radius">6dp</dimen>
+    <dimen name="emoji_sendButton_stroke">1dp</dimen>
+    <dimen name="emoji_sendButton_margin_l">@dimen/emoji_contentText_margin_lr</dimen>
+    <dimen name="emoji_smileViewPager_height">106dp</dimen>
+    <dimen name="emoji_smileViewPager_margin_t">4dp</dimen>
+    <dimen name="emoji_dotLinearLayout_height">10dp</dimen>
+    <dimen name="emoji_dotLinearLayout_margin_tb">4dp</dimen>
+    <dimen name="emoji_dotView_radius">@dimen/emoji_dotLinearLayout_height</dimen>
+    <dimen name="emoji_dotView_wh">@dimen/emoji_dotLinearLayout_height</dimen>
+    <dimen name="emoji_dotView_margin_lr">3dp</dimen>
+    <dimen name="emoji_addLinearLayout_height">128dp</dimen>
+
+    <!-- emoji_gridview_item_smile.xml -->
+    <dimen name="emoji_iconLinearlayout_padding_gridview_item_smile">2dp</dimen>
+    <dimen name="emoji_iconImageView_wh_gridview_item_smile">30dp</dimen>
+
+    <!-- emoji_gridview_item_add.xml -->
+    <dimen name="emoji_iconLinearlayout_padding_gridview_item_add">10dp</dimen>
+    <dimen name="emoji_iconImageView_wh_gridview_item_add">60dp</dimen>
+
+</resources>

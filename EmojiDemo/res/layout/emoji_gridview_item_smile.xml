@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/emoji_iconLinearlayout_padding_gridview_item_smile" >
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="@dimen/emoji_iconImageView_wh_gridview_item_smile"
+        android:layout_height="@dimen/emoji_iconImageView_wh_gridview_item_smile" />
+
+</LinearLayout>

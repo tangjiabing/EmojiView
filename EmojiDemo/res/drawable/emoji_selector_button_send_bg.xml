@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <solid android:color="@color/emoji_sendButton_solid_pressed" />
+
+            <corners android:radius="@dimen/emoji_sendButton_radius" />
+
+            <stroke android:width="@dimen/emoji_sendButton_stroke" />
+        </shape></item>
+    <item android:state_pressed="false"><shape android:shape="rectangle">
+            <solid android:color="@color/emoji_sendButton_solid" />
+
+            <corners android:radius="@dimen/emoji_sendButton_radius" />
+
+            <stroke android:width="@dimen/emoji_sendButton_stroke" />
+        </shape></item>
+
+</selector>

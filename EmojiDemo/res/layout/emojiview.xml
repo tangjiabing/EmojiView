@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/emoji_inputLinearLayout_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/emoji_inputLinearLayout_padding" >
+
+                <ImageView
+                    android:id="@+id/audioImageView"
+                    android:layout_width="@dimen/emoji_audioImageView_wh"
+                    android:layout_height="@dimen/emoji_audioImageView_wh"
+                    android:layout_weight="0"
+                    android:src="@drawable/emoji_selector_imageview_audio" />
+
+                <EditText
+                    android:id="@+id/contentText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/emoji_contentText_margin_lr"
+                    android:layout_marginRight="@dimen/emoji_contentText_margin_lr"
+                    android:layout_weight="1"
+                    android:background="@drawable/emoji_shape_edittext_content_bg"
+                    android:maxLines="3"
+                    android:padding="@dimen/emoji_contentText_padding"
+                    android:textSize="@dimen/emoji_font_contentText" />
+
+                <ImageView
+                    android:id="@+id/smileImageView"
+                    android:layout_width="@dimen/emoji_smileImageView_wh"
+                    android:layout_height="@dimen/emoji_smileImageView_wh"
+                    android:layout_weight="0"
+                    android:src="@drawable/emoji_selector_imageview_smile" />
+
+                <ImageView
+                    android:id="@+id/addImageView"
+                    android:layout_width="@dimen/emoji_addImageView_wh"
+                    android:layout_height="@dimen/emoji_addImageView_wh"
+                    android:layout_marginLeft="@dimen/emoji_addImageView_margin_l"
+                    android:layout_weight="0"
+                    android:src="@drawable/emoji_selector_imageview_add" />
+
+                <Button
+                    android:id="@+id/sendButton"
+                    android:layout_width="@dimen/emoji_sendButton_width"
+                    android:layout_height="@dimen/emoji_sendbutton_height"
+                    android:layout_marginLeft="@dimen/emoji_sendButton_margin_l"
+                    android:layout_weight="0"
+                    android:background="@drawable/emoji_selector_button_send_bg"
+                    android:text="@string/emoji_sendButton"
+                    android:textColor="@color/emoji_sendButton_textcolor"
+                    android:textSize="@dimen/emoji_font_sendButton"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/smileLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/emoji_smileLinearLayout_bg"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/smileViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/emoji_smileViewPager_height"
+                    android:layout_marginTop="@dimen/emoji_smileViewPager_margin_t" />
+
+                <LinearLayout
+                    android:id="@+id/dotLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/emoji_dotLinearLayout_height"
+                    android:layout_marginBottom="@dimen/emoji_dotLinearLayout_margin_tb"
+                    android:layout_marginTop="@dimen/emoji_dotLinearLayout_margin_tb"
+                    android:gravity="center"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/addLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/emoji_addLinearLayout_height"
+                android:background="@color/emoji_addLinearLayout_bg"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <GridView
+                    android:id="@+id/addGridView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="4"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</merge>
